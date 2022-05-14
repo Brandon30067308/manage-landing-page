@@ -1,0 +1,130 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: BeVietnam;
+  font-weight: 400;
+  src: url("../fonts/BeVietnam.ttf");
+}
+
+@font-face {
+  font-family: BeVietnam;
+  font-weight: 500;
+  src: url("../fonts/BeVietnam-Medium.ttf");
+}
+
+@font-face {
+  font-family: BeVietnam;
+  font-weight: 700;
+  src: url("../fonts/BeVietnam-Bold.ttf");
+}
+
+:root {
+  --review-box-padding: 24px;
+  --review-image-size: 64px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "BeVietnam", sans-serif;
+}
+
+.review-box {
+  @apply flex flex-col items-center justify-start;
+}
+
+.review-box > div {
+  padding-bottom: var(--review-box-padding);
+  padding-top: calc((var(--review-image-size) / 2) + var(--review-box-padding));
+}
+
+.review-box img {
+  width: var(--review-image-size);
+  height: var(--review-image-size);
+  margin-bottom: calc((var(--review-image-size) / 2) * -1);
+  z-index: 10;
+}
+
+.swiper {
+  display: flex;
+  flex-direction: column;
+}
+
+.swiper-pagination {
+  display: flex !important;
+  position: static;
+  margin-top: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: transparent !important;
+  opacity: 1 !important;
+  border: 2px solid hsl(12 88% 59%);
+  margin-right: 0.35rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: hsl(12 88% 59%) !important;
+}
+
+.ReactModal__Overlay {
+  @apply flex items-center justify-center z-[8];
+  background-color: rgb(215, 215, 215, 0.725) !important;
+}
+
+.modal-menu {
+  animation-name: slide-in;
+  animation-timing-function: ease-in;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  transform: translateX(-75%);
+  @apply relative rounded-2xl bg-white shadow-md sm:w-[88%] w-[95%] max-w-4xl min-h-[50%] h-fit
+  -mt-[20vh] flex items-center justify-center outline-none;
+}
+
+.footer .footer-link:hover,
+.footer .footer-link:hover svg {
+  @apply transition-colors text-primaryLight;
+}
+
+@keyframes slide-in {
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .text-4xl {
+    font-size: 30px;
+  }
+  .text-6xl {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .text-base {
+    font-size: 14px;
+  }
+  .text-lg {
+    font-size: 15px;
+  }
+  .text-2xl {
+    font-size: 20px;
+  }
+  .text-4xl {
+    font-size: 26px;
+  }
+  .text-6xl {
+    font-size: 40px;
+  }
+}
