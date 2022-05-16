@@ -23,6 +23,7 @@ const NavMobile: FC<NavMobileProps> = ({ navOpen, setNavOpen }) => {
         onRequestClose={() => setNavOpen(false)}
         shouldCloseOnOverlayClick={true}
         ariaHideApp={false}
+        preventScroll={true}
       >
         <ul className="flex flex-col justify-center rounded-xl text-center">
           <li
