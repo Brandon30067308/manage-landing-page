@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/manage-landing-page/static/css/main.5f56d780.css",
+    "main.js": "/manage-landing-page/static/js/main.ed1969f0.js",
+    "static/js/787.10987b1a.chunk.js": "/manage-landing-page/static/js/787.10987b1a.chunk.js",
+    "static/media/BeVietnam-Bold.ttf": "/manage-landing-page/static/media/BeVietnam-Bold.7b3a7ba69cd0ded1768a.ttf",
+    "static/media/BeVietnam-Medium.ttf": "/manage-landing-page/static/media/BeVietnam-Medium.ba21de51e0423b37d7ea.ttf",
+    "static/media/BeVietnam.ttf": "/manage-landing-page/static/media/BeVietnam.dbb2b33c82d881ea9c97.ttf",
+    "static/media/avatar-ali.png": "/manage-landing-page/static/media/avatar-ali.88f9155cb730934f4d7c.png",
+    "static/media/avatar-shanai.png": "/manage-landing-page/static/media/avatar-shanai.4bbe2f95e8975736fbd8.png",
+    "static/media/illustration-intro.svg": "/manage-landing-page/static/media/illustration-intro.cb9a8a9551ca99f99a125230d38a2c36.svg",
+    "static/media/avatar-anisha.png": "/manage-landing-page/static/media/avatar-anisha.484e15bc92ce6a0106ab.png",
+    "static/media/avatar-richard.png": "/manage-landing-page/static/media/avatar-richard.ace8e0892f67a50c1e9e.png",
+    "static/media/logo.svg": "/manage-landing-page/static/media/logo.05e6c9b0f708c38511487b4677574167.svg",
+    "static/media/logo-alt.svg": "/manage-landing-page/static/media/logo-alt.8ad7a9f6c14be6de877e99f415d13b9b.svg",
+    "index.html": "/manage-landing-page/index.html",
+    "static/media/bg-simplify-section-desktop.svg": "/manage-landing-page/static/media/bg-simplify-section-desktop.306190a387ca2094bb9b.svg",
+    "static/media/icon-close.svg": "/manage-landing-page/static/media/icon-close.d5ba0dc53461cfc81979638f3b9fcf2e.svg",
+    "static/media/bg-simplify-section-mobile.svg": "/manage-landing-page/static/media/bg-simplify-section-mobile.a79c8471fa284189552d.svg",
+    "static/media/bg-tablet-pattern.svg": "/manage-landing-page/static/media/bg-tablet-pattern.b6990a984c7bcc142d3e9783736e996a.svg",
+    "static/media/icon-hamburger.svg": "/manage-landing-page/static/media/icon-hamburger.8dcf47cc6f3180ad040f1173f3592504.svg",
+    "main.5f56d780.css.map": "/manage-landing-page/static/css/main.5f56d780.css.map",
+    "main.ed1969f0.js.map": "/manage-landing-page/static/js/main.ed1969f0.js.map",
+    "787.10987b1a.chunk.js.map": "/manage-landing-page/static/js/787.10987b1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f56d780.css",
+    "static/js/main.ed1969f0.js"
+  ]
+}
